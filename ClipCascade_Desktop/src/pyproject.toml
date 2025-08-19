@@ -32,7 +32,7 @@ packages = ["cli", "clipboard", "core", "gui", "interfaces", "p2p", "stomp_ws", 
 py-modules = ["main"]
 
 [tool.setuptools.dynamic]
-dependencies = {file = ["requirements-linux.txt"]}
+dependencies = {file = ["requirements_linux.txt"]}
 
 [project.urls]
 Homepage = "https://clipcascade.sathvik.dev/"
